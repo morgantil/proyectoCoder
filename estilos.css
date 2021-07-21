@@ -1,0 +1,34 @@
+.navbar1 {
+    background-color: rgb(231, 198, 157);
+}
+
+.navbar ul li {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.ofertas {
+    background-color: crimson;
+}
+
+.ofertaS {
+    margin: 3em;
+    background-color: blue;
+    color: cornflowerblue;
+    border-radius: 25px;
+}
+
+.ofertaS:hover {
+    background-color: cyan;
+}
+
+.fotoMarca {
+    display: flex;
+    align-content: center;
+    margin: 15px;
+    width: 400px;
+}
+
+.iconosFooter {
+    display: flex;
+    justify-content: flex-end;
+}
