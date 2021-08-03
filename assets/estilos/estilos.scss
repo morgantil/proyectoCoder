@@ -1,3 +1,9 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
 $bgNav:#d4dff0;
 $bgOfertas:#FFC947;
 $bgMarcas:#185ADB;
@@ -25,6 +31,8 @@ nav {
 
 .espacioMarcas {
     background-color: $bgMarcas;
+    display: flex;
+      justify-content: space-around;
 }
 
 .ofertaS {
@@ -82,6 +90,11 @@ footer {
     font-weight: bold;
 }
 
+.contenedorMarcas{
+    display: flex;
+   align-items: center;
+}
+
 /*INICIO TYPING*/
 
 .wrapper {
@@ -114,3 +127,21 @@ footer {
     }
   }
   /*FIN TYPING*/
+
+ 
+  .icono{
+      width: 9em;
+      height:9em;
+  }
+
+
+  .contenedorcito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mediosPago{
+      background-color: rgb(88, 69, 69);
+  }

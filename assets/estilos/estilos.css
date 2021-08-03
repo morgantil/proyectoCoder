@@ -1,3 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 nav {
   background-color: #d4dff0;
 }
@@ -20,6 +25,11 @@ nav .navDiv1 ul li a {
 
 .espacioMarcas {
   background-color: #185ADB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .ofertaS {
@@ -91,6 +101,15 @@ footer {
   font-weight: bold;
 }
 
+.contenedorMarcas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*INICIO TYPING*/
 .wrapper {
   height: 10vh;
@@ -142,4 +161,28 @@ footer {
 }
 
 /*FIN TYPING*/
+.icono {
+  width: 9em;
+  height: 9em;
+}
+
+.contenedorcito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mediosPago {
+  background-color: #584545;
+}
 /*# sourceMappingURL=estilos.css.map */
