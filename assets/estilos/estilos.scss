@@ -1,8 +1,7 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
-
 
 $bgNav:#d4dff0;
 $bgOfertas:#FFC947;
@@ -26,13 +25,12 @@ nav {
 }
 
 .main__cards {
-    background-color:$bgOfertas;
+    background-color: $bgOfertas;
 }
 
 .espacioMarcas {
     background-color: $bgMarcas;
-    display: flex;
-      justify-content: space-around;
+    text-align: -webkit-center;
 }
 
 .ofertaS {
@@ -80,20 +78,17 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.btnEnviar{
-    background-color:rgb(236, 32, 32);
-    font-weight: bold;
 
+.btnEnviar {
+    background-color: rgb(236, 32, 32);
+    font-weight: bold;
 }
-.btnEnviar:hover{
+
+.btnEnviar:hover {
     background-color: $bgMarcas;
     font-weight: bold;
 }
 
-.contenedorMarcas{
-    display: flex;
-   align-items: center;
-}
 
 /*INICIO TYPING*/
 
@@ -103,9 +98,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .typing-demo {
+}
+
+.typing-demo {
     width: 38ch;
     animation: typing 5s steps(38), blink .5s step-end infinite alternate;
     white-space: nowrap;
@@ -113,35 +108,57 @@ footer {
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
-  }
-  
-  @keyframes typing {
+}
+
+@keyframes typing {
     from {
-      width: 0
+        width: 0
     }
-  }
-      
-  @keyframes blink {
+}
+
+@keyframes blink {
     50% {
-      border-color: transparent
+        border-color: transparent
     }
-  }
-  /*FIN TYPING*/
-
- 
-  .icono{
-      width: 9em;
-      height:9em;
-  }
+}
 
 
-  .contenedorcito {
+/*FIN TYPING*/
+
+.icono {
+    width: 9em;
+    height: 9em;
+}
+
+.contenedorcito {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .mediosPago{
-      background-color: rgb(88, 69, 69);
-  }
+.contenedorFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+.contenedorIconos {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mediosPago {
+    background-color: #5c91fa;
+}
+
+.alinearCards {
+    text-align: -webkit-center;
+}
